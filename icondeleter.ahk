@@ -1,6 +1,6 @@
 
 ; ===============================================================================================================================
-; =====隐藏桌面icon：雙擊滑鼠左鍵
+; =隐藏桌面icon：雙擊滑鼠左鍵
 ; ===============================================================================================================================
 
 #If IsDesktopUnderMouse()
@@ -45,26 +45,8 @@ HideOrShowDesktopIcons()
 }
 #If
 ; ===============================================================================================================================
-; GetDesktopIconUnderMouse()
-; https://www.autohotkey.com/boards/viewtopic.php?p=260761
-; Function:       Gets the desktop icon under the mouse. See the "Return values" section below for more information about the
-;                 icon and associated file data retrieved.
-; Parameters:     None
-; Return values:  If there is an icon under the mouse, an associative array with the following keys:
-;                 - left: the left position of the icon in screen coordinates
-;                 - top: the top position of the icon in screen coordinates
-;                 - right: the right position of the icon in screen coordinates
-;                 - bottom: the bottom position of the icon in screen coordinates
-;                 - name: the name of the file represented by the icon, e.g. New Text Document.txt
-;                 - size: the size of the file represented by the icon, e.g. 1.72 KB. Note: this value is blank for folders
-;                 - type: the type of the file represented by the icon, e.g. TXT File, JPEG image, File folder
-;                 - date: the modified date of the file represented by the icon, e.g. 9/9/2016 10:39 AM
-;                 Otherwise, a blank value
-; Global vars:    None
-; Dependencies:   None
-; Tested with:    AHK 1.1.30.01 (A32/U32/U64)
-; Tested on:      Win 7 (x64)
-; Written by:     iPhilip
+; Tested with:    AHK 1.1.37.02 (U64)
+; Tested on:      Win 11 (x64)
 ; ===============================================================================================================================
 
 GetDesktopIconUnderMouse() {
